@@ -1,6 +1,6 @@
 # QA Portfolio Assessment - Complete Solution
 
-**Candidate:** [Your Name]  
+**Candidate:** Olajide Abiodun  
 **Date:** January 2025  
 **Application Under Test:** [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com)
 
@@ -58,7 +58,7 @@ This repository contains a comprehensive QA assessment demonstrating:
     - Logout: 3 test cases
     - Edge cases: 4 test cases
 - **Format:** Markdown table format
-- **Google Sheets Link:** [Insert your Google Sheets link here]
+- **Google Sheets Link:** https://docs.google.com/spreadsheets/d/1zc3muKs_tIfeGMJYT0EaNAqnEx2vlWfo-O-TF2UcMfw/edit?gid=0#gid=0
 
 ###  Task 2: Exploratory Testing
 
@@ -158,7 +158,7 @@ mvn test
 - Exploratory testing methodology
 
 ### UI Automation
-- **Language:** Java 11+
+- **Language:** Java 17
 - **Framework:** Selenium WebDriver 4.15.0
 - **Test Runner:** TestNG 7.8.0
 - **Build Tool:** Maven
@@ -174,7 +174,7 @@ mvn test
 ## Quick Start Guide
 
 ### Prerequisites
-- Java JDK 11 or higher
+- Java JDK 17
 - Maven 3.6+
 - Chrome Browser
 - IntelliJ IDEA (recommended)
@@ -204,15 +204,15 @@ open target/surefire-reports/index.html
 
 ## Documentation Links
 
-| Document | Description | Location                                      |
-|----------|-------------|-----------------------------------------------|
-| Test Cases | 25 manual test cases | `manual-testing/test-cases.md`                |
-| Google Sheets | Test cases in spreadsheet format | https://docs.google.com/spreadsheets/d/1zc3muKs_tIfeGMJYT0EaNAqnEx2vlWfo-O-TF2UcMfw/edit?gid=0#gid=0                                              |
-| Exploratory Report | 30-min testing findings | `manual-testing/exploratory-testing-report.md` |
-| Bug Reports | 3 documented bugs | `manual-testing/bug-report.md`                |
-| UI Tests | Selenium Java automation | `automation/ui-test/`                         |
-| QA Thinking | Assessment question answers | `docs/qa-thinking.md`                         |
-
+| Document              | Description                              | Location                                      |
+|-----------------------|------------------------------------------|-----------------------------------------------|
+| Test Cases            | 25 manual test cases                     | [manual-testing/test-cases.md](manual-testing/test-cases.md) |
+| Google Sheets         | Test cases in spreadsheet format         | https://docs.google.com/spreadsheets/d/1zc3muKs_tIfeGMJYT0EaNAqnEx2vlWfo-O-TF2UcMfw/edit?gid=0#gid=0
+| Exploratory Report    | 30-min exploratory testing findings      | [manual-testing/exploratory-testing-report.md](manual-testing/exploratory-testing-report.md) |
+| Bug Reports           | 4 documented bugs                        | [manual-testing/bug-report.md](manual-testing/bug-report.md) |
+| UI Tests              | Selenium Java automation                 | [automation/ui-test/](automation/ui-test/) |
+| API Tests             | Postman collection                       | [automation/api-test/](automation/api-test/) |
+| QA Thinking           | Answers to assessment questions          | [qa-thinking/answer.md](qa-thinking/answer.md) |
 ---
 
 ## Assessment Coverage Summary
@@ -256,12 +256,10 @@ open target/surefire-reports/index.html
     4. Run Selenium tests (headless mode)
     5. Upload test reports
 
-**Status:** ![CI Status](https://github.com/olajideabiodun116/QA-OrangeHRM-Project/workflows/UI%20Tests/badge.svg)
-
 ---
 
 ## Contact Information
 
 - **Name:** Olajide Abiodun
 - **Email:** olajideabiodun116@gmail.com
-- **GitHub:** [https://github.com/olajideabiodun116/QA-OrangeHRM-Project](https://github.com/yourusername/QA-OrangeHRM-Project)
+- **GitHub:** [https://github.com/olajideabiodun116/QA-OrangeHRM-Project](https://github.com/olajideabiodun116/QA-OrangeHRM-Project)
